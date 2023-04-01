@@ -1,11 +1,11 @@
 import React from "react";
-import Form from './component/Form'
-import Time from './component/Time'
+import Point from './component/Point'
+import Mount from './component/Mount'
 function App() {
   return (
     <div className="App">
-      <Form />
-      <Time />
+      <Point />
+      <Mount />
     </div>
   );
 }
