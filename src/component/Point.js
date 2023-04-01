@@ -33,10 +33,6 @@ class Point extends React.Component {
     console.log("--- shouldComponentUpdate");
     console.log("nextProps", nextProps);
     console.log("nextState", nextState);
-
-    // returns
-    // 1. true if rendering is needed
-    // 2. false if rendering is not needed
     return nextState.points % 2 === 0;
   }
 
